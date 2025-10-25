@@ -6,14 +6,21 @@
 > This project builds upon the **CLIP4Clip** architecture proposed in [ArrowLuo/CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip),  
 and leverages pretrained weights from [Searchium-ai/clip4clip-webvid150k](https://huggingface.co/Searchium-ai/clip4clip-webvid150k).
 
+## 🚀 Run the Service
 
-### Base Architecture
+To execute our multimodal surveillance framework (frontend + backend),  
+please refer to the following repositories:
+
+- **Model Inference Server:** [OMNi-BE](https://github.com/yourname/omni-anomaly-backend)
+- **Web User Interface:** [omni-FE](https://github.com/yourname/omni-anomaly-frontend)
+
+### 🔗 Base Architecture
 - **Repository:** [ArrowLuo/CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip)  
 - **Description:** Original PyTorch implementation of CLIP4Clip, a vision-language model for video–text retrieval.  
 - **License:** MIT License  
 - **Usage:** The architecture was used as a *baseline backbone* for our fine-tuning task.
 
-### Pretrained Weights
+### 🖇️ Pretrained Weights
 - **Model:** [`Searchium-ai/clip4clip-webvid150k`](https://huggingface.co/Searchium-ai/clip4clip-webvid150k)  
 - **Dataset:** WebVid-150k  
 - **Purpose:** Used as initialization weights for domain-specific fine-tuning on in-store human action datasets (AI-Hub).  
@@ -21,7 +28,7 @@ and leverages pretrained weights from [Searchium-ai/clip4clip-webvid150k](https:
   - Re-trained for 50 epochs with custom multimodal contrastive loss.  
   - Adapted to detect context-aware abnormal behaviors in unmanned store environments.
 
-### Fine-tuning & Serving
+### 📡 Fine-tuning & Serving
 - **H/w:** NVIDIA RTX 3060 (local environment)  
 - **Frameworks:** PyTorch, FastAPI  
 <br>
