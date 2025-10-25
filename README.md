@@ -1,7 +1,8 @@
 # MooIn
-무인점포 이상상황 대응 및 예방 웹 서비스 (2025 봄학기 숙명여대 it공학전공 졸업프로젝트)
+무인점포 이상상황 대응 및 예방 웹 서비스 (2025-1 숙명여대 it공학전공 졸업프로젝트)
 <br>
-<img src="/Users/jisu/Desktop/dev/grad-cctv/OMNI/logo-final-omni_full_bg.png" height=140>
+<img src='https://i.ifh.cc/yHzGZf.png' width=400>
+
 > This project builds upon the **CLIP4Clip** architecture proposed in [ArrowLuo/CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip),  
 and leverages pretrained weights from [Searchium-ai/clip4clip-webvid150k](https://huggingface.co/Searchium-ai/clip4clip-webvid150k).
 
