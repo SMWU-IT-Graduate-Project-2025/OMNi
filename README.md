@@ -5,6 +5,7 @@
 
 > This project builds upon the **CLIP4Clip** architecture proposed in [ArrowLuo/CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip),  
 and leverages pretrained weights from [Searchium-ai/clip4clip-webvid150k](https://huggingface.co/Searchium-ai/clip4clip-webvid150k).
+> Detailed model customization and fine-tuning code modifications can be found in the following repository: (https://github.com/Tae-P/clip4clip-omni.git)
 
 ## 🚀 Run the Service
 
